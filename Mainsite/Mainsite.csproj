@@ -4,7 +4,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+  <ItemGroup>
+    <Content Include="umbraco/Licenses/umbracoDeploy.lic" CopyToOutputDirectory="Always"/>
+    <Content Include="TriggerDeploy.ps1" CopyToOutputDirectory="Always"/>
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="clean" Version="2.1.6" />
     <PackageReference Include="Umbraco.Cms" Version="11.1.0" />

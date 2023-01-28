@@ -457,6 +457,11 @@ $RECYCLE.BIN/
 ## Umbraco CMS
 ##
 
+**/media/*
+
+# Umbraco deploy specific
+**/umbraco/Deploy/deploy*
+
 # JSON schema files for appsettings.json
 appsettings-schema.json
 appsettings-schema.*.json
